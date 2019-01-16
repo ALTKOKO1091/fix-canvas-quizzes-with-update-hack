@@ -2,12 +2,6 @@
 
 This tool uses puppeteer to go into quizzes and "edit" every question, though it doesn't actually change anything. This will prevent the quiz from throwing a 500 error with the API.
 
-## Use
-![screen shot](screenshot.PNG)
-
-courses can be a whatever delimited list of courses
-
-
 ## How to Install
 Standard Install
 
@@ -29,9 +23,4 @@ Run the following command:
 ```bash
 node main
 ```
-
-## How to Build
-Build not necessary
-
-## How to Test
-No tests
+The program will prompt you for the course ID and your username and password for Canvas.
