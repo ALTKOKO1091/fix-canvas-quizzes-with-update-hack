@@ -9,12 +9,25 @@ courses can be a whatever delimited list of courses
 
 
 ## How to Install
-No installation necessary
+Standard Install
+
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/byuitechops/fix-canvas-quizzes-with-update-hack.git
+    ```
+1. Step into the folder that was just created 
+    ```bash
+    cd ./fix-canvas-quizzes-with-update-hack
+    ```
+1. To install dependancies, run:
+    ```bash
+    npm i
+    ```
 
 ## How to Use
 Run the following command:
 ```bash
-node <%= main %>
+node main
 ```
 
 ## How to Build
